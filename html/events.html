@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Andrea Dell'Orto">
+    <meta name="description" content="A theme park website">
+    <meta name="keywords" content="theme park, hotwheels, hot wheels">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the Website -->
+    <title>Hot Wheels Theme Park</title>
+    <!-- JS Sources -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    
+    <!-- Ref to css stylesheets -->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!--
+     The header contains the logo & navigation links to all of the main pages
+     It also allows users to toggle between languages
+    -->
+    <header id="pageHeader" class="events">
+        
+    </header>
+    <!--
+     The page's video banner shows some engaging content that is relevant to the events page
+    -->
+    <div id="slideshow-container" class="slideshowContainer">
+        <div class="slide">
+            <img src="resources/events/event.png" alt="Slide 1">
+          
+        </div>
+    </div>
+    <h1 class="eventsHeaderLink">Events Activities</h1>
+    <!--
+     The detailed content of the events page show upcoming events that have been scheduled for the next two months
+    -->
+  
+    <section class="container">
+        <div class="card-container swiper">
+            <div class="card-content">
+                <div class="swiper-wrapper">
+                    <article class="card-article swiper-slide">
+                        <div class="front face">
+                            <div class="card-image">
+                                <img src="resources/events/eventslider1 copy.png" alt="" class="card-img">
+                                <div class="card-shadow"></div>
+                            </div> 
+                            <div class="card-data">
+                                <h3 class="card-name">Racing Competition</h3>
+                                <p class="card-description">
+                                    Join us for an adrenaline-pumping experience at the Hot Wheels Racing Extravaganza 2024!
+                                </p>
+                                <button class="frontcardbutton" data-card="flip">Details</button>
+                            </div>
+                        </div>
+                        <div class="back face">
+                            <div class="card-image">
+                                <img src="resources/events/eventslider1 copy.png" alt="" class="backcard-img">
+                                <div class="card-shadow"></div>
+                            </div>
+                            <div class="card-data">
+                                <h3 class="card-name">Racing Competition</h3>
+                               <span class="price">$25</span>
+                                <button class="backcardbutton" data-card="flip">Book Now</button>
+
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card-article swiper-slide">
+                        <div class="front face">
+                            <div class="card-image">
+                                <img src="resources/events/eventslider1 copy.png" alt="" class="card-img">
+                                <div class="card-shadow"></div>
+                            </div> 
+                            <div class="card-data">
+                                <h3 class="card-name">Hot Wheels Monster Trucks Live</h3>
+                                <p class="card-description">
+                                    Join us for an adrenaline-pumping experience at the Hot Wheels Racing Extravaganza 2024!
+                                </p>
+                                <button class="frontcardbutton" data-card="flip">Details</button>
+                            </div>
+                        </div>
+                        <div class="back face">
+                            <div class="card-image">
+                                <img src="resources/events/eventslider1 copy.png" alt="" class="backcard-img">
+                                <div class="card-shadow"></div>
+                            </div> 
+                            <div class="card-data">
+                                <h3 class="card-name">Hot Wheels Monster Trucks Live</h3>
+                               
+                                <span class="price">$21</span>
+                                <button class="backcardbutton" data-card="flip">Book Now</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card-article swiper-slide">
+                        <div class="front face">
+                            <div class="card-image">
+                                <img src="resources/events/eventslider1 copy.png" alt="" class="card-img">
+                                <div class="card-shadow"></div>
+                            </div> 
+                            <div class="card-data">
+                                <h3 class="card-name">Hot Wheels Garage of Legends</h3>
+                                <p class="card-description">
+                                    Join us for an adrenaline-pumping experience at the Hot Wheels Racing Extravaganza 2024!
+                                </p>
+                                
+                                <button class="frontcardbutton" data-card="flip">Details</button>
+                            </div>
+                        </div>
+                        <div class="back face">
+                            <div class="card-image">
+                                <img src="resources/events/eventslider1 copy.png" alt="" class="backcard-img">
+                                <div class="card-shadow"></div>
+                            </div> 
+                            <div class="card-data">
+                                <h3 class="card-name">Hot Wheels Garage of Legends</h3>
+                                
+                                <span class="price">$20</span>
+                                <button class="backcardbutton" data-card="flip">Book Now</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card-article swiper-slide">
+                        <div class="front face">
+                            <div class="card-image">
+                                <img src="resources/events/eventslider1 copy.png" alt="" class="card-img">
+                                <div class="card-shadow"></div>
+                            </div> 
+                            <div class="card-data">
+                                <h3 class="card-name">Hot Wheels stunt Tour</h3>
+                                <p class="card-description">
+                                    Join us for an adrenaline-pumping experience at the Hot Wheels Racing Extravaganza 2024!
+                                </p>
+                                <button class="frontcardbutton" data-card="flip">Details</button>
+                            </div>
+                        </div>
+                        <div class="back face">
+                            <div class="card-image">
+                                <img src="resources/events/eventslider1 copy.png" alt="" class="backcard-img">
+                                <div class="card-shadow"></div>
+                            </div> 
+                            <div class="card-data">
+                                <h3 class="card-name">Hot Wheels stunt Tour</h3>
+                               
+                                <span class="price">$30</span>
+                                <button class="backcardbutton" data-card="flip">Book Now</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card-article swiper-slide">
+                        <div class="front face">
+                            <div class="card-image">
+                                <img src="resources/events/collection.jpg" alt="" class="card-img">
+                                <div class="card-shadow"></div>
+                            </div> 
+                            <div class="card-data">
+                                <h3 class="card-name">HotWheels Speedometry</h3>
+                                <p class="card-description">
+                                    Join us for an adrenaline-pumping experience at the Hot Wheels Racing Extravaganza 2024!
+                                </p>
+                                <button class="frontcardbutton" data-card="flip">Details</button>
+                            </div>
+                        </div>
+                        <div class="back face">
+                            <div class="card-image">
+                                <img src="resources/events/collection.jpg" alt="" class="backcard-img">
+                                <div class="card-shadow"></div>
+                            </div> 
+                            <div class="card-data">
+                                <h3 class="card-name">HotWheels Speedometry</h3>
+                               
+                                <span class="price">$50</span>
+                                <button class="backcardbutton" data-card="flip">Book Now</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card-article swiper-slide">
+                        <div class="front face">
+                            <div class="card-image">
+                                <img src="resources/events/eventslider1 copy.png" alt="" class="card-img">
+                                <div class="card-shadow"></div>
+                            </div> 
+                            <div class="card-data">
+                                <h3 class="card-name">Hot Wheels Nationals</h3>
+                                <p class="card-description">
+                                    Join us for an adrenaline-pumping experience at the Hot Wheels Racing Extravaganza 2024!
+                                </p>
+                                <button class="frontcardbutton" data-card="flip">Details</button>
+                            </div>
+                        </div>
+                        <div class="back face">
+                            <div class="card-image">
+                                <img src="resources/events/eventslider1 copy.png" alt="" class="backcard-img">
+                                <div class="card-shadow"></div>
+                            </div> 
+                            <div class="card-data">
+                                <h3 class="card-name">Hot Wheels National</h3>
+                              
+                                <span class="price">$15</span>
+                                <button class="backcardbutton" data-card="flip">Book Now</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+   
+
+    <!--
+     The footer is loaded dynamically from footer.html when the page loads when the DOMContentLoaded event fires in js/commons.js
+    -->
+    <script src="./js/translate.js"></script>
+    <script src="./js/commons.js"></script>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', () => {
+        // flipping cards swiper
+        let swiperCards = new Swiper('.card-content', {
+          loop: true,
+          spaceBetween:100,
+          grabCursor:true,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            dynamicBullets: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          breakpoints: {
+            600: {
+              slidesPerView: 3,
+            },
+            968: {
+              slidesPerView:4,
+            },
+          },
+        });
+      });
+    </script>
+    <div id="footerDiv"></div>
+</body>
+</html>
+
+

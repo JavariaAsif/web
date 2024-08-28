@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<a href="index.html" >
+    <img src="resources/commons/Hot_Wheels_logo_PNG30.png" alt="Hot Wheels Logo" class="logo">
+</a>
+<div>
+    <nav class="nav navbar">
+        <ul class="list">
+            <li class="home">
+                <a href="index.html">
+                    <svg class="icon">
+                        <title>Home</title>
+                        <use xlink:href="resources/commons/menu.svg#home"></use>
+                    </svg>
+                    <span class="hometext">Home</span>
+                </a>
+            </li>
+            <li class="events">
+                <a href="events.html">
+                    <svg class="icon">
+                        <title>Events</title>
+                        <use xlink:href="resources/commons/menu.svg#events"></use>
+                    </svg>
+                    <span class="eventtext">Events</span>
+                </a>
+            </li>
+            <li class="rides">
+                <a href="rides.html">
+                    <svg class="icon">
+                        <title>Rides</title>
+                        <use xlink:href="resources/commons/menu.svg#rides"></use>
+                    </svg>
+                    <span class="ridetext">Rides</span>
+                </a>
+            </li>
+            <li class="tickets">
+                <a href="tickets.html">
+                    <svg class="icon">
+                        <title>Events</title>
+                        <use xlink:href="resources/commons/menu.svg#tickets"></use>
+                    </svg>
+                    <span class="tickettext">Tickets</span>
+                </a>
+            </li>
+            <li class="info">
+                <a href="info.html">
+                    <svg class="icon">
+                        <title>Park Information</title>
+                        <use xlink:href="resources/commons/menu.svg#info"></use>
+                    </svg>
+                    <span class="infotext">Park Information</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<div class="login desktop">
+    <button class="btnlogin-popup logintext">LOGIN</button>
+</div>
+<div class="languages">
+    <div class="language-selected">
+
+    </div>
+    <ul>
+        <li><a href="#" class="pr">Portugues</a></li>
+        <li><a href="#" class="en">English</a></li>
+        <li><a href="#" class="es">Espanol</a></li>
+    </ul>
+</div>
+<input type="checkbox" id="hamburgerMenuToggle" class="hamburgerMenuToggle" />
+<label for="hamburgerMenuToggle" class="hamburgerMenuButton">
+    <i class="fas fa-bars"></i>
+</label>
+<div class="nav cartcontainer">
+    <!--cart icon-->
+    <i class='bx bxs-shopping-bag' id="cart-icon"></i>
+    <!--cart-->
+
+        <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+            <!--content-->
+            <div class="cart-content">
+    
+            </div>
+            <!--Total--> 
+    <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">$0</div>
+    </div>
+    <!--Buy Button-->
+    <button type="button" class="btn-buy">Check Out</button>
+    <!--Cart close-->
+    <i class='bx bx-x'  id="close-cart"></i>
+   
+     </div>
+    </div>
+  
+   
+
+<div class="navPopOver">
+    <div class="login">
+        <button class="btnlogin-popup logintext">LOGIN</button>
+    </div>
+    <label for="hamburgerMenuToggle" class="hamburgerMenuButton">
+        <i class="fas fa-bars"></i>
+    </label>
+    <nav class="nav navmenu">
+        <ul class="list">
+            <li class="home">
+                <a href="index.html">
+                    <svg class="icon">
+                        <title>Home</title>
+                        <use xlink:href="resources/commons/menu.svg#home"></use>
+                    </svg>
+                    <span class="hometext">Home</span>
+                </a>
+            </li>
+            <li class="events">
+                <a href="events.html">
+                    <svg class="icon">
+                        <title>Events</title>
+                        <use xlink:href="resources/commons/menu.svg#events"></use>
+                    </svg>
+                    <span class="eventtext">Events</span>
+                </a>
+            </li>
+            <li class="rides">
+                <a href="rides.html">
+                    <svg class="icon">
+                        <title>Rides</title>
+                        <use xlink:href="resources/commons/menu.svg#rides"></use>
+                    </svg>
+                    <span class="ridetext">Rides</span>
+                </a>
+            </li>
+            <li class="tickets">
+                <a href="tickets.html">
+                    <svg class="icon">
+                        <title>Tickets</title>
+                        <use xlink:href="resources/commons/menu.svg#tickets"></use>
+                    </svg>
+                    <span class="tickettext">Tickets</span>
+                </a>
+            </li>
+            <li class="info">
+                <a href="info.html">
+                    <svg class="icon">
+                        <title>Park Information</title>
+                        <use xlink:href="resources/commons/menu.svg#info"></use>
+                    </svg>
+                    <span class="infotext">Park Information</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<div class="wrapper">
+    <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+    <div class="form-box login" id="login">
+        <h2 class="logintext">LOGIN</h2>
+        <form action="#">
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail-open"></ion-icon></span>
+                <input type="email" required>
+                <label class="emailtext">Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" required>
+                <label class="passwordtext">Password</label>
+            </div>
+            <div class="remember-forgot">
+                <input type="checkbox" id="rememberMe" name="rememberMe">
+                <label for="rememberMe" class="remembermetext">Remember Me</label>
+                &nbsp;
+                <a href="#" class="forgotpasswordtext">Forgot Password? </a>
+            </div>
+            <button type="submit" class="loginbtn loginbtntext">Login</button>
+            <div class="login-register">
+               <p>
+                   <span class="donthaveanaccounttext">Don't have an account?</span>
+                   &nbsp;
+                   <a href="#" class="register-link registertext">Register</a>
+                </p> 
+            </div>
+        </form>
+    </div>
+    <div class="form-box register" id="register">
+        <h2 class=registrationtext>REGISTRATION</h2>
+        <form action="#">
+            <div class="input-box">
+                <span class="icon"><ion-icon name="person"></ion-icon></span>
+                <input type="text" required>
+                <label class="usernametext">Username</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail-open"></ion-icon></span>
+                <input type="email" required>
+                <label class="emailtext">Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" required>
+                <label class="passwordtext">Password</label>
+            </div>
+            <div class="remember-forgot">
+                <input type="checkbox" id="agreeTermsAndConditions" name="agreeTermsAndConditions">
+                <label for="agreeTermsAndConditions" class="agreetermsandconditionstext">I agree to the terms and condititons</label>
+            </div>
+            <button type="submit" class="registerbtn registertext">Register</button>
+            <div class="login-register">
+                <p>
+                    <span class="alreadyhaveanaccounttext">Already have an account?</span>
+                    &nbsp;
+                    <a href="#" class="login-link loginbtntext">Login</a>
+                </p> 
+            </div>
+        </form>
+    </div>
+</div>
+
