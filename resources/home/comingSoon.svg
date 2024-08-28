@@ -1,0 +1,29 @@
+<svg width="1400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1400" height="300" fill="#87CEFA" />
+
+  <!-- Text -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#FFD700">
+    Check out for the new Attractions!
+  </text>
+
+  <!-- Stars -->
+  <circle cx="200" cy="100" r="15" fill="#FFD700" />
+  <circle cx="1200" cy="200" r="15" fill="#FFD700" />
+  <circle cx="1100" cy="50" r="10" fill="#FFD700" />
+  <circle cx="300" cy="250" r="10" fill="#FFD700" />
+  <circle cx="800" cy="50" r="20" fill="#FFD700" />
+
+  <!-- Roller Coaster -->
+  <path d="M 100 250 Q 400 100 700 250 T 1300 250" stroke="#FF4500" stroke-width="8" fill="none" />
+  <path d="M 1300 250 Q 1450 300 1600 150" stroke="#FF4500" stroke-width="8" fill="none" />
+
+  <!-- Balloons -->
+  <circle cx="1200" cy="80" r="30" fill="#FF69B4" />
+  <circle cx="1180" cy="60" r="10" fill="white" />
+  <line x1="1200" y1="110" x2="1200" y2="150" stroke="#FF69B4" stroke-width="4" />
+
+  <circle cx="200" cy="200" r="30" fill="#00BFFF" />
+  <circle cx="180" cy="180" r="10" fill="white" />
+  <line x1="200" y1="230" x2="200" y2="270" stroke="#00BFFF" stroke-width="4" />
+</svg>
